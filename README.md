@@ -1,4 +1,4 @@
-# Project Title
+# POWER LEARN PROJECT FEBRUARY COHORT 2025
 
 ## Overview
 This project contains a collection of Python scripts that demonstrate various programming concepts and functionalities. Each script serves a different purpose, providing interactive experiences for users.
