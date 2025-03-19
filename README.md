@@ -23,6 +23,21 @@ An interactive quiz game that presents multiple-choice questions to the user, va
 ### 6. Basic Calculator (`assgn1.py`)
 A simple calculator program that allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) on two numbers. It handles division by zero and invalid operations.
 
+### 7. List Comprehension Filter (`week2/codechallenges/listsco.py`)
+This program stores a list of words and uses list comprehension to create a new list containing only the words that have an odd number of characters.
+
+### 8. Set Intersection (`week2/codechallenges/sets.py`)
+This program accepts user input to create two sets of integers and then creates a new set that contains only the elements that are common to both sets.
+
+### 9. Personal Information Dictionary (`week2/codechallenges/infodict.py`)
+This script prompts the user for their name, age, and favorite color, storing this information in a dictionary and displaying it in a user-friendly format.
+
+### 10. Integer List Sum (`week2/codechallenges/int.py`)
+This program accepts user input to create a list of integers and computes the sum of all integers in that list.
+
+### 11. Favorite Books Tuple (`week2/codechallenges/tuple.py`)
+This script creates a tuple containing the names of five favorite books and prints each book name on a separate line.
+
 ## Usage
 To run any of the scripts, simply execute the corresponding Python file in your terminal. Ensure you have Python installed on your system.
 
