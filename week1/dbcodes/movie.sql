@@ -46,3 +46,4 @@ UPDATE Movies
 SET movieyear = 2000
 WHERE movieyear = 2001;
 
+/*mysql -u root -p < week1/dbcodes/movie.sql */
