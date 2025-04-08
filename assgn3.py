@@ -17,6 +17,7 @@ def calculate_discount(price, discount_percent):
         return price
     
 # Main function to test the calculate_discount function
+# Print the final price after applying the discount, or if no discount was applied, print the original price
 def main():
     try:
         price = float(input("Enter the original price of the item: Ksh "))
@@ -36,7 +37,5 @@ def main():
 if __name__ == "__main__":
     main()
     
-#Using the calculate_discount function, prompt the user to enter the original price of an item and the discount percentage. 
-# Print the final price after applying the discount, or if no discount was applied, print the original price
 
 
