@@ -102,3 +102,68 @@ let isLearner = true;
 let isEligible = (myAge < 25 && isLearner);
 console.log("Is the person learner? " + isEligible);
 
+//data types :understanding javascript building blocks
+//string : a sequence of characters
+let myString = "Hello, World!";
+//number : a numeric value
+let myNumber = 42;
+//boolean : a true or false value
+let myBoolean = true;
+//null
+let myNull = null;
+//undefined
+let myUndefined = undefined;
+
+//Declaring a Function There are three primary ways to define functions in JavaScript:Function Declaration Function Expression Arrow Function
+
+//Function Declaration
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("Alice")); // Output: Hello, Alice!
+
+//Function Expression - A function can be assigned to a variable. These functions are not hoisted, meaning they cannot be called before they are defined.
+const greetm = function(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("Bob")); // Output: Hello, Bob!
+
+//Arrow function - Introduced in ES6, arrow functions provide a concise syntax for writing functions. They are particularly useful for callbacks and one-liners.
+const greetArrow = (name) => {
+    return "Hello, " + name + "!";
+}
+console.log(greet("Charlie")); // Output: Hello, Charlie!
+
+//Function Parameters and Arguments
+//Function parameters are variables listed as part of the function's definition. Arguments are the actual values passed to the function when it is called.
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 10)); // Output: 15
+
+//return statement
+function add(a, b) {
+    return a + b;
+}
+console.log(add(5, 10)); // Output: 
+
+//SCOPE Of variables - Local Scope: Variables declared inside a function are accessible only within that function. Global Scope: Variables declared outside any function are accessible from anywhere.
+
+let globalVar = "I am a global variable";
+function localScope() {
+    let localVar = "I am a local variable";
+    console.log(localVar); // Output: I am a local variable
+}
+localScope();
+console.log(globalVar); // Output: I am a global variable
+
+//anonymus functions - Functions without a name
+setTimeout(function() {
+    console.log("This runs after 2 seconds");
+  }, 2000);
+
+
+//IIFE (Immediately Invoked Function Expression) - A function that runs as soon as it is defined.
+(function() {
+    console.log("This runs immediately");
+})();
