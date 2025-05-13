@@ -1,0 +1,12 @@
+Sales Data Analysis Results:
+----------------------------
+Total Revenue: $161,940.00
+Best-Selling Product: Mouse (29 units sold)
+Highest Sales Day: 2025-04-19 ($13,060.00 in revenue)
+
+Top 5 Selling Products by Quantity:
+- Mouse: 407 units
+- Keyboard: 171 units
+- Headphones: 138 units
+- Laptop: 92 units
+- Monitor: 80 units
